@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = os.getenv("OPEN_API_KEY")
 print("API KEY:", api_key)  # 추가: 키가 제대로 불러와지는지 확인
 
 if not api_key:
