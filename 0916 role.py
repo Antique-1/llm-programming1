@@ -8,7 +8,7 @@ api_key = os.getenv("OPEN_API_KEY")
 client = OpenAI(api_key=api_key)
 
 response1 = client.chat.completions.create(
-    model="gpt-3.5-turbo",
+    model="gpt-4o",
     temperature=0.9,
     messages=[
         {"role": "system", "content": "너는 백설공주 이야기 속 마법 거울이야. 그 이야기의 캐릭터에 맞게 답변해줘."},
